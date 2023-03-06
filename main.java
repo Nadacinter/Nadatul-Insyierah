@@ -11,7 +11,7 @@ public class Main {
   Marks marks = new Marks(numdata);
   marks.createData();
   PrincipalName principalName = new PrincipalName("Nadatul", "Insyierah");
-  Address address = new Address("No 123, Jalan kampung pinang", "4252662", " Kuching", "Perak");
+  Address address = new Address("No 123, Jalan kampung pinang", "4252662", " Taiping", "Perak");
   School school = new School("Sekolah Tamn Ptronas",address,principalName,marks);
  
   school.setNumberParticipants();
